@@ -33,11 +33,11 @@ The system is designed to support early triage and proactive, risk-driven clinic
 - Precision: 0.88  
 - Recall: 0.85  
 
-**Mechanical Ventilation Prediction:**
+**Oxygen Therapy Prediction:**
 - Precision: 0.86  
 - Recall: 0.84  
 
-**Additional Model Variant:**
+**Mechanical Ventilation Prediction:**
 - Precision: 0.83  
 - Recall: 0.81  
 
