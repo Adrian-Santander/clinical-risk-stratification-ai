@@ -11,7 +11,7 @@ readme_content = """
 
 ## Overview
 
-This project develops a multimodal machine learning pipeline to predict:
+This project develops a multimodal machine learning pipeline for predicting:
 
 - Hospitalisation risk  
 - Oxygen therapy requirement  
