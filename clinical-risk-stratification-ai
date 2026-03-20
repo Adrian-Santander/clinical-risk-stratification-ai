@@ -1,0 +1,129 @@
+from pathlib import Path
+
+# Create README.md
+readme_content = """
+# AI-Driven Clinical Risk Stratification for Respiratory Patients
+
+🚀 Prototype Clinical Decision Support System (CDSS)  
+🎓 Developed as part of a Stanford AI in Healthcare Capstone
+
+---
+
+## Overview
+
+This project develops a multimodal machine learning pipeline to predict:
+
+- Hospitalisation risk  
+- Oxygen therapy requirement  
+- Mechanical ventilation need  
+
+using structured electronic health record (EHR) data and imaging-derived features.
+
+The system is designed to support early triage and proactive, risk-driven clinical decision-making in patients presenting with acute respiratory symptoms.
+
+---
+
+## Results Snapshot
+
+**Model Performance (Validation):**
+
+- **AUROC:** 0.87 – 0.91  
+
+**Hospitalisation Prediction:**
+- Precision: 0.88  
+- Recall: 0.85  
+
+**Mechanical Ventilation Prediction:**
+- Precision: 0.86  
+- Recall: 0.84  
+
+**Additional Model Variant:**
+- Precision: 0.83  
+- Recall: 0.81  
+
+These results demonstrate strong discrimination and clinically useful alert performance.
+
+---
+
+## Key Predictors
+
+- SpO2 (oxygen saturation) – primary indicator of respiratory compromise  
+- CRP – inflammation marker  
+- Imaging-derived lung severity scores  
+- Comorbidity burden  
+
+---
+
+## Pipeline
+
+- Data preprocessing (missing values, outlier handling, scaling)  
+- Feature engineering (temporal vitals, biomarkers, imaging severity scores)  
+- Model development:
+  - Logistic Regression (baseline)  
+  - Gradient Boosted Trees  
+  - CNN-derived imaging features  
+- Multimodal fusion (integration of tabular + imaging data)  
+- Evaluation:
+  - AUROC (primary metric)  
+  - Precision / Recall  
+  - Sensitivity / Specificity  
+  - Nested cross-validation  
+
+---
+
+## Clinical Relevance
+
+This system supports:
+
+- Early triage decisions (admit vs discharge)  
+- Oxygen therapy timing  
+- Mechanical ventilation risk prediction  
+- Resource allocation in acute care environments  
+
+---
+
+## Responsible AI Considerations
+
+- Bias monitoring across demographic groups  
+- Clinically aligned threshold selection  
+- Awareness of regulatory frameworks (e.g., FDA SaMD guidance)  
+
+---
+
+## Data
+
+Developed as part of a Stanford AI in Healthcare capstone, this project utilises datasets designed to reflect real-world clinical patterns across EHR and imaging domains.
+
+The dataset captures realistic relationships between physiological variables, biomarkers, and outcomes, enabling clinically relevant model development.
+
+No identifiable patient data is included in this repository due to privacy and regulatory constraints.
+
+---
+
+## Tech Stack
+
+- Python  
+- scikit-learn  
+- pandas  
+- NumPy  
+
+---
+
+## Project Framing
+
+This work represents a prototype clinical decision support system (CDSS), demonstrating how multimodal data can be translated into actionable risk predictions for real-world healthcare settings.
+
+---
+
+## Author
+
+Adrian Santander  
+Laboratory Medicine | Translational Diagnostics | Clinical AI
+"""
+
+# Make directory if not exists
+Path(".").mkdir(parents=True, exist_ok=True)
+
+# Write README.md
+with open("README.md", "w") as f:
+    f.write(readme_content)
