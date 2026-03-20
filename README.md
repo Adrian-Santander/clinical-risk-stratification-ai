@@ -1,7 +1,5 @@
 from pathlib import Path
 
-# README content
-readme_content = """
 # AI-Driven Clinical Risk Stratification for Respiratory Patients
 
 🚀 **Prototype Clinical Decision Support System (CDSS)**  
