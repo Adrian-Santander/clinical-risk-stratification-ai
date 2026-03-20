@@ -35,8 +35,8 @@ It uses **structured electronic health record (EHR) data** and **imaging-derived
 
 ## Key Predictors
 
-- **SpO2** (oxygen saturation) : primary indicator of respiratory compromise  
-- **CRP** : inflammation marker  
+- **SpO2** (oxygen saturation): primary indicator of respiratory compromise  
+- **CRP**: inflammation marker  
 - **Imaging-derived lung severity scores**  
 - **Comorbidity burden**  
 
