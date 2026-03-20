@@ -82,6 +82,16 @@ This system supports:
 
 ---
 
+## Limitations
+
+- Performance dependent on data completeness  
+- Imaging features simplified into severity scores  
+- Not externally validated  
+
+This is a prototype system and not suitable for clinical deployment.
+
+---
+
 ## Responsible AI Considerations
 
 - Bias monitoring across demographic groups  
