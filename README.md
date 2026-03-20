@@ -61,6 +61,16 @@ It uses **structured electronic health record (EHR) data** and **imaging-derived
 
 ---
 
+## Limitations
+
+- Performance dependent on data completeness  
+- Imaging features simplified into severity scores  
+- Not externally validated  
+
+This is a prototype system and not suitable for clinical deployment.
+
+---
+
 ## Responsible AI Considerations
 
 - Bias monitoring across demographics  
