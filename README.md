@@ -35,8 +35,8 @@ It uses **structured electronic health record (EHR) data** and **imaging-derived
 
 ## Key Predictors
 
-- **SpO2** (oxygen saturation) – primary indicator of respiratory compromise  
-- **CRP** – inflammation marker  
+- **SpO2** (oxygen saturation) : primary indicator of respiratory compromise  
+- **CRP** : inflammation marker  
 - **Imaging-derived lung severity scores**  
 - **Comorbidity burden**  
 
@@ -44,11 +44,11 @@ It uses **structured electronic health record (EHR) data** and **imaging-derived
 
 ## Pipeline
 
-1. **Data preprocessing** – missing value handling, outlier removal, scaling  
-2. **Feature engineering** – temporal vitals, biomarkers, imaging severity  
-3. **Modeling** – Logistic Regression, Gradient Boosted Trees, CNN features  
-4. **Multimodal fusion** – integrating tabular and imaging data  
-5. **Evaluation** – AUROC, precision/recall, sensitivity/specificity, nested cross-validation  
+1. **Data preprocessing** : missing value handling, outlier removal, scaling  
+2. **Feature engineering** : temporal vitals, biomarkers, imaging severity  
+3. **Modeling** : Logistic Regression, Gradient Boosted Trees, CNN features  
+4. **Multimodal fusion** : integrating tabular and imaging data  
+5. **Evaluation** : AUROC, precision/recall, sensitivity/specificity, nested cross-validation  
 
 ---
 
