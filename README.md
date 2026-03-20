@@ -89,12 +89,3 @@ It uses **structured electronic health record (EHR) data** and **imaging-derived
 **Adrian Santander**  
 Laboratory Medicine | Translational Diagnostics | Clinical AI  
 """
-
-# Make directory if it doesn't exist
-Path(".").mkdir(parents=True, exist_ok=True)
-
-# Write README.md
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("✅ README.md has been created successfully!")
